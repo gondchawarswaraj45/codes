@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form filling</title>
+  </head>
+  <body>
+    <h1>Online Job Application Portal</h1>
+
+    <p>Apply for your dream Job!</p>
+    <hr />
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label> Full Name : </label>
+        <input type="text" placeholder="Enter your full name" />
+        <br />
+        <br />
+        <label> Create Password</label>
+        <input type="password" />
+        <br />
+        <br />
+        <label>Email Address : </label>
+        <input type="email" placeholder="example@email" />
+        <br />
+        <br />
+        <label> Mobile number : </label>
+        <input type="tel" placeholder="10-digit mobile number" maxlength="10" />
+        <br />
+        <br />
+
+        <label>Age : </label>
+        <input type="number" />
+
+        <br />
+        <br />
+
+        <label> Date of Birth : </label>
+        <input type="date" />
+        <br />
+        <br />
+
+        <label>Gender : </label>
+        <input type="radio" />Male <input type="radio" />Female
+        <input type="radio" />Other
+
+        <br /><br />
+
+        <label>Current Address : </label>
+
+        <br />
+        <textarea placeholder="Enter you Address"></textarea>
+
+        <br /><br />
+
+        <label>Profile Photograph : </label>
+        <input type="file" />
+
+        <br /><br />
+
+        <label>Portfolio Website : </label>
+        <input type="url" placeholder="https://example.com" />
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Educational Background</legend>
+
+        <label>Highest Qualification : </label>
+        <select>
+          <option disabled selected>-Select Qualification-</option>
+          <option>BE</option>
+          <option>ME</option>
+          <option>HSC</option>
+          <option>SSC</option>
+        </select>
+        <br /><br />
+
+        <label>College Name : </label>
+        <input type="text" placeholder="Enter college name" />
+
+        <br /><br />
+
+        <label>Graduation Month : </label>
+        <input type="month" />
+        <br /><br />
+
+        <label>Graduation Year : </label>
+        <input type="number" />
+        <br /><br />
+
+        <label>Certifications Completed : </label>
+        <br />
+
+        <input type="checkbox" />java <input type="checkbox" />python
+        <input type="checkbox" />Web Development <br /><br />
+        <label>Preferred Interview Date :</label>
+        <input type="datetime-local" />
+
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Job Preferences</legend>
+
+        <label>Search Job Role :</label>
+        <input type="text" placeholder="Search job positions" />
+
+        <br /><br />
+
+        <label>Select Job Role </label>
+        <select>
+          <option disabled selected>-- Select Job Role --</option>
+          <option>Java Dev</option>
+          <option>Python Dev</option>
+          <option>CPP Dev</option>
+        </select>
+
+        <br /><br />
+
+        <label>Employment Type: </label>
+
+        <br /><br />
+
+        <input type="radio" />Full Time <input type="radio" />Part Time
+        <input type="radio" />Internship
+
+        <br /><br />
+
+        <label>Expected Monthly Salary (INR) :</label>
+        <input type="number" />
+        <br /><br />
+
+        <label>Preferred Interview Time : </label>
+        <input type="time" />
+        <br /><br />
+
+        <label>Preferred Theme Color : </label>
+        <input type="color" />
+        <br /><br />
+
+        <label>Coding Confidence (1-10) :</label>
+        <input type="range" />
+        <br /><br />
+
+        <label>Linked Profile :</label>
+        <input type="url" placeholder="https://linkedin.com/in/userr" />
+      </fieldset>
+
+      <br>
+      <fieldset>
+        <legend>4. Technical Skills and Experience</legend>
+
+        <label>Years of Experience: </label>
+        <input type="number" value="0" />
+        <br /><br />
+
+        <label>Preferred Technology: </label>
+        <input type="text" />
+        <br /><br />
+
+        <label>Technical Skills: </label>
+        <select multiple>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>JavaScript</option>
+          <option>Java</option>
+          <option>Python</option>
+        </select>
+
+        <br /><br />
+
+        Use Ctrl (Windows) or Command (Mac) to select multiple skills.
+
+        <br /><br />
+
+        <label>Upload Resume (PDF only): </label>
+        <input type="file" accept=".pdf" />
+        <br /><br />
+
+        <label>Upload Certificates: </label>
+        <input type="file" multiple />
+        <br /><br />
+
+        <label>Why should we hire you?</label>
+        <br />
+        <textarea
+          placeholder="Describe your skills and strengths" rows="5" cols="45"
+        ></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>5. Skill Assessment and Application Status</legend>
+
+        <label>HTML Skill Level: </label>
+        <input type="range">
+
+        <br /><br />
+
+        <label>Application Completion: </label>
+        <input type="range">
+
+        <br /><br />
+
+        <label>Application Status: </label>
+        <output>Ready for submission</output>
+
+        <br /><br />
+
+        <input type="checkbox" />
+        I confirm that the information provided is correct.
+
+        <br /><br />
+      </fieldset>
+
+      <br />
+
+      <input type="submit"  />
+      <input type="reset"  />
+      <button type="button">Help</button>
+      <button type="button">Review Application</button>
+
+      <hr />
+
+      <h3>Additional Examples</h3>
+
+      <fieldset>
+        <legend>Search Available Jobs</legend>
+
+        <label>Job Title: </label>
+        <input type="search" />
+        <button type="button">Search Jobs</button>
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Read-only and Disabled Fields</legend>
+
+        <label>Application ID: </label>
+        <input type="text" value="JOB20261001" readonly />
+
+        <br /><br />
+
+        <label>Company: </label>
+        <input type="text" value="Example Company" disabled />
+
+        <br /><br />
+
+        <button type="button">Update Profile</button>
+      </fieldset>
+
+      <hr />
+
+      <p>Online Job Application Portal<br><br>
+        HTML Forms Practice Assignment</p>
+    </form>
+  </body>
+</html>
