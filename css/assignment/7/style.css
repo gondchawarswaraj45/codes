@@ -1,0 +1,50 @@
+h1{
+    color: blue;
+    font-size: 38px;
+    text-align: center;
+
+
+}
+
+header p{
+    text-align: center;
+    color: gray;
+}
+
+div{
+    background-color: aqua;
+    height: fit-content;
+    width: 550px;
+    padding: 2px;
+    border-radius: 16px;
+
+}
+h2 ,h3, h4 {
+    color: green;
+}
+
+li{
+    color: maroon;
+}
+
+div > p{
+    color: gray;
+}
+
+.feature{
+    text-align: center;
+    color: maroon;
+}
+
+section > p::before{
+    content: "Tips: ";
+    font-weight: 800;
+    color: green;
+}
+.destination{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,84 @@
+body {
+  background-color: #1f1f1f;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.profiles {
+  width: 60%;
+  margin: 10px auto;
+  background-color: black;
+}
+
+.profile {
+  height: 58px;
+  padding: 4px;
+  border-bottom: 1px solid white;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  
+}
+
+.profile p {
+  margin: 2px 0;
+  font-size: 11px;
+}
+
+.movies {
+  width: 60%;
+  min-height: 500px;
+  margin: 10px auto;
+  background-color: black;
+}
+
+.movies h1 {
+  text-align: center;
+  color: yellow;
+  font-size: 22px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid white;
+  margin: 0;
+}
+
+.movie {
+  width: 40%;
+  background-color: #292929;
+  margin-bottom: 20px;
+}
+
+.movie h2 {
+  color: orange;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.movie p {
+  background-color: #191919;
+  padding: 8px 3px;
+  font-size: 9px;
+  margin: 0;
+}
+
+.movie img {
+  width: 145px;
+  height: 185px;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 3px 0px black;
+
+
+}
+
+.caption {
+  color: lime;
+  text-align: center;
+  font-size: 8px;
+  padding: 10px 0;
+  background-color: #191919;
+}
